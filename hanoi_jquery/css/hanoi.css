@@ -1,0 +1,70 @@
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-family: cursive;
+  font-size: 60px;
+  font-weight: 800;
+}
+
+figure.hanoi {
+  box-sizing: border-box;
+  width: 600px;
+  margin: auto;
+  height: 300px;
+  display: flex;
+  flex-direction: row;
+}
+
+.tower {
+  margin: 0;
+  box-sizing: border-box;
+  width: 200px;
+  height: 300px;
+  list-style: none; 
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0;
+  margin: 0 5px;  
+  border-bottom: 8px solid black;
+}
+
+.tower:hover {
+  border-bottom: 8px solid magenta;
+}
+
+li {
+  background-color: black;
+  height: 50px;
+  border-radius: 30px;  
+  margin-bottom: 10px;
+  border: 1px solid black;
+}
+
+li.width-1 {
+  width: 50px;
+  background-color: red;
+}
+
+li.width-2 {
+  width: 100px;
+  background-color: white;
+}
+
+li.width-3 {
+  width: 150px; 
+  background-color: blue;
+}
+
+.selected {
+  border-bottom: 8px solid lightgreen;
+}
+.selected:hover {
+  border-bottom: 8px solid lightgreen;
+}
+
