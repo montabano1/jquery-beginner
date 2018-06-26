@@ -1,0 +1,33 @@
+ul {
+  box-sizing: border-box;
+  width: 300px;
+  height: 300px;
+  background-color: green;
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+}
+
+li {
+  box-sizing: border-box;
+  width: 100px;
+  height: 100px;
+  border: 1px solid magenta;
+  list-style: none;
+  background-color: gray;
+}
+
+.marked {
+  background-color: white;
+  font-size: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: capitalize;
+  font-family: fantasy;
+  color: cyan;
+}
+
+li:hover {
+  background-color: yellow;
+}
