@@ -1,0 +1,41 @@
+/* PHASE 9: Forms */
+.content-main {
+  /* padding: 20px */
+}
+
+.content-main-thumb {
+  float: left;
+  margin-right: 10px;
+}
+
+.content-main img {
+  width: 60px;
+  height: auto;
+}
+
+.content-main a {
+  
+}
+
+.post-form {
+  float: right;
+  width: 548px;
+  background-color: #eee;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+section.input {
+  display: flex;
+  flex-direction: column;
+}
+
+section.input label {
+  font-weight: 700;
+}
+
+.post-form-input {
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
